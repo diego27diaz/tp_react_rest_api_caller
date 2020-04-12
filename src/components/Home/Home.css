@@ -1,0 +1,29 @@
+.left-api{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.right-api{
+    width: 50%;
+    height: 100vh;
+    float: right;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.loading-on{
+    position: fixed;
+    display: block;
+    top: 40%;
+    left: 40%;
+    background-color: #000;
+    color:  #FFF;
+}
+
+.loading-off{
+    display: none;
+    
+}
